@@ -47,6 +47,7 @@ h1 {
 .change-option a{
     font-size: 0.9rem;
     font-weight: 900;
+    color: var(--bright-blue);
 }
 
 button {
@@ -76,7 +77,7 @@ body {
 }
 
 main {
-    width: 350px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,13 +93,13 @@ main img {
 }
 
 h1 {
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
 .order-description {
     width: 78%;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .order-options {
@@ -112,7 +113,7 @@ h1 {
 }
 
 .order-options img {
-    width: 40px;
+    width: 60px;
     margin-right: 1em;
 }
 
@@ -135,7 +136,7 @@ button {
     width: 85%;
     margin-top: 2em;
     border-radius: 10px;
-    height: 3em;
+    height: 3.5em;
     box-shadow: 0px 10px 30px -10px var(--bright-blue);
 }
 
