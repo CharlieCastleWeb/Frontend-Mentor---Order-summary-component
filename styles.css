@@ -15,6 +15,7 @@
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
+    --purple: #766CF1;
 }
 
 /*   TYPOGRAPHY   */
@@ -29,6 +30,9 @@ h1 {
     font-size: 1.5rem;
 }
 
+h1, .plan {
+    color: var(--dark-blue);
+}
 .order-description {
     font-size: 0.9rem;
     color: var(--desaturated-blue);
@@ -50,6 +54,11 @@ h1 {
     color: var(--bright-blue);
 }
 
+.change-option a:hover,
+.change-option a:focus {
+    color: var(--purple);
+}
+
 button {
     font-weight: 900;
 }
@@ -60,6 +69,11 @@ button {
 
 .cancel-button {
     color: var(--desaturated-blue);
+}
+
+.cancel-button:hover,
+.cancel-button:focus {
+    color: var(--dark-blue);
 }
 
 /*   LAYOUT   */
@@ -138,6 +152,11 @@ button {
     border-radius: 10px;
     height: 3.5em;
     box-shadow: 0px 10px 30px -10px var(--bright-blue);
+}
+
+.payment-button:hover,
+.payment-button:focus {
+    background-color: var(--purple);
 }
 
 .cancel-button {
